@@ -1,0 +1,15 @@
+h6 {
+    font-size: 0.625rem;
+    font-weight: normal;
+    line-height: 1;
+    color: #d3d3d4;
+}
+h6.form__suggestion {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CTFLean Signin</title>
+</head>
+<body>
+    <link rel="stylesheet" href="">
+    <div id="root">
+        <main>
+            <nav class="navbar">
+                <div class="navbar_brand">
+                    <a href="/">
+                        <h3>
+                            "CTFLEARN "
+                            <span style="opacity: 0.33;">V2</span>
+                        </h3>
+                    </a>
+                </div>
+                <div class="navbar_links">
+                    <h3 class="navbar_links_link">
+                        <a href="/problems">Problems</a>
+                    </h3>
+                    <h3 class="navbar_links_link">
+                        <a href="/scoreboard">Scoreboard</a>
+                    </h3>
+                    <h3 class="navbar_links_link">
+                        <a href="/activity">Activity</a>
+                    </h3>
+                    <h3 class="navbar_links_link">
+                        <a href="/groups">Groups</a>
+                    </h3>
+                     <h3 class="navbar_links_link">
+                        <a href="/feedback">Feedback</a>
+                    </h3>
+                    <h3 class="navbar_links_link">
+                        <a href="/changelog">Changelog</a>
+                    </h3>
+                    <h3 class="navbar_links_link">
+                        <a href="/slack">Slack</a>
+                    </h3>
+                    <h3 class="navbar_links_link--disabled">
+                        <a href>Search</a>
+                    </h3>
+                </div>
+                <div class="navbar_actions">
+                    <h3 class="navbar_actions_action">
+                        <a href="/signup">Sign Up</a>
+                        <a href="/signin">Sign In</a>
+                    </h3>
+                </div>
+            </nav>
+            <div class="container--xsmall">
+                <header class="header--full header--no-paragraph">
+                    <h1 class="header__title">Sign In</h1>
+                </header>
+                <form class="form-signin">
+                    <input type="hidden" value="disable-autocomplete">
+                    <div class="form__group">
+                        <div class="form__group__details">
+                            <p class="copy--form">Username or Email</p>
+                            <p class="copy--error"></p>
+                        </div>
+                        <input type="text" class="form__group__input" name="identifier" placeholder="Username or email" required value>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__group__details">
+                            <p class="copy--form">Password</p>
+                            <p class="copy--error"></p>
+                        </div>
+                        <div class="form__group__password">
+                            <input type="password" class="form__group__password__input" name="password" placeholder="Password" required autocomplete="new-password" value>
+                            <span class="form__gruop__password__show"></span>
+                        </div>
+                    </div>
+                    <div class="form__action">
+                        <button class="form__button form__button--disabled" type="submit">Sign In</button>
+                    </div>
+                    <hr class="form__divider">
+                    <h6 class="form__suggestion">
+                        <a href="/signup">Don't have an account</a>
+                        " or"
+                        <a href="/forgotpassword">forgot your password?</a>
+                    </h6>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
