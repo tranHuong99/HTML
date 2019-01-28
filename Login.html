@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CTFLearn Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="root">
+        <nav class="taskbar">
+            <div class="taskbar_logo">
+                <h3>CTFLEARN <span style="opacity: 0.33;">V2</span></h3>
+            </div>
+            <div class="taskbar_chooses">
+                    <h3 class="taskbar_chooses_choose">
+                            <a href="/problems">Problems</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/scoreboard">Scoreboard</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/activity">Activity</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/groups">Groups</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/feedback">Feedback</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/changelog">Changelog</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose">
+                            <a href="/slack">Slack</a>
+                        </h3>
+                        <h3 class="taskbar_chooses_choose-->disabled">
+                            <a href>Search</a>
+                        </h3>
+            </div>
+            <div class="taskbar_actions">
+                <h3>
+                    <a href="/signup">Sign Up</a>
+                    <a href="/signin">Sign In</a>
+                </h3>
+            </div>
+        </nav>
+        <div class="login">
+                <header class="header_Login">
+                    <h1 class="header_title">Sign In</h1>
+                </header>
+                <form class="form-signin">
+                        <div class="signin_group">
+                            <div class="signin_group_details">
+                                <p class="copy--form">Username or Email</p>
+                                <p class="copy--error"></p>
+                            </div>
+                            <input type="text" class="signin_group_input" name="identifier" placeholder="Username or email" required value>
+                        </div>
+                        <div class="signin_group">
+                            <div class="signin_group_details">
+                                <p class="copy--form">Password</p>
+                                <p class="copy--error"></p>
+                            </div>
+                            <div class="signin_group_password">
+                                    <input type="password" class="signin_group_password_input" name="password" placeholder="Password" required autocomplete="new-password" value>
+                                    <span class="signin_group_password__show"></span>
+                            </div>
+                        </div>
+                        <div class="form__action">
+                            <button class="form_button form_button--disabled" type="submit">Sign In</button>
+                        </div>
+                        <hr class="form_divider">
+                        <h6 class="form_suggestion">
+                            <a href="/signup">Don't have an account</a>
+                            <a> or</a>
+                            <a href="/forgotpassword">forgot your password?</a>
+                        </h6>
+                    </form>
+        </div>
+    </div>
+</body>
+</html>
