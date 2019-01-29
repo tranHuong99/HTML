@@ -1,5 +1,6 @@
-article{
-    width: 300px;
+nav{
+    width: 1700px;
+    height: 60px;
 }
 body{
     width: 100%;
@@ -21,7 +22,7 @@ h3{
     margin: 0px;
 }
 a{
-    font-size: 0.875rem;
+    font-size: -0.125rem;
     color: #d3d3d4;
     text-decoration: none;
     text-decoration-line: none;
@@ -33,7 +34,7 @@ a{
     margin-top: 0px;
     margin-right: 30px;
     margin-bottom: 0px;
-    margin-left: 476px;
+    margin-left: 320px;
 }
 .taskbar .taskbar_actions .taskbar_actions_2 a{
     color: white;
