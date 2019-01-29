@@ -28,24 +28,32 @@ a{
     text-decoration-style: initial;
     text-decoration-color: initial;
 }
-.taskbar .taskbar_actions a{
+.taskbar .taskbar_actions .taskbar_actions_1 a{
     color: white;
     margin-top: 0px;
     margin-right: 30px;
     margin-bottom: 0px;
-    margin-left: 235px;
-    text-align: 0px;
+    margin-left: 476px;
+}
+.taskbar .taskbar_actions .taskbar_actions_2 a{
+    color: white;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-left: -32px;
 }
 h1 {
     margin: 0px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 1;
     color: white;
+    padding-top: 135px;
 }
 p.copy--form{
     color: white;
     font-size: 0.75rem;
+    padding-top: 16px;
 }
 .login{
     width: 27.5rem;
@@ -87,8 +95,12 @@ p.copy--form{
 .form_button, .form_button--disabled {
     min-width: 7.625rem;
     height: 2.0625rem;
-    margin: 0;
-    padding: 0 1.75rem;
+    margin: 30px 0 16px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    padding: 0px 1.75rem;
     background: #1260f3;
     color: white;
     font-size: 0.75rem;
