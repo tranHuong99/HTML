@@ -1,0 +1,67 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #131316;
+    font-family: "DINPro", sans-serif;
+}
+.taskbar{
+    width: 95.5%;
+    height: 3.5rem;
+    background: #42424d;
+    display: flex;
+    list-style: none;
+    padding: 0 2rem;
+    align-items: center;
+
+}
+.taskbar_logo{
+    flex: 0 auto;
+    margin: 0 1.425rem 0 0;
+
+}
+.taskbar_logo h3{
+    text-transform: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    display: flex;
+}
+.taskbar_chooses{
+    display: flex;
+    flex:0;
+    height: 100%;
+}
+.taskbar_chooses_choose{
+    margin: auto 20px;
+}
+.taskbar_actions{
+    display: flex;
+    align-items: left
+    flex: 1;
+    height: 100%;
+}
+.taskbar_actions_action a{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+.taskbar .taskbar_actions .taskbar_actions_actions{
+    margin: auto 25px;
+    padding-left: 25px; 
+
+}
+.taskbar_chooses .taskbar_chooses_choose a{
+    font-size: 1.1rem;
+    color: #d3d3d4;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a:hover{
+    color: #d3d3d4;
+}
+
