@@ -1,14 +1,11 @@
-
 body{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+    width: 98%;
     background: #131316;
     font-family: "DINPro", sans-serif;
 }
 .taskbar{
-    width: 95.5%;
-    height: 3.5rem;
+    width: 100%;
+    height: 4rem;
     background: #42424d;
     display: flex;
     list-style: none;
@@ -16,9 +13,10 @@ body{
     align-items: center;
 
 }
+
 .taskbar_logo{
     flex: 0 auto;
-    margin: 0 1.425rem 0 0;
+    margin: 0 2.625rem 0 0;
 
 }
 .taskbar_logo h3{
@@ -27,11 +25,10 @@ body{
     font-weight: bold;
     line-height: 1;
     color: white;
-    display: flex;
 }
 .taskbar_chooses{
     display: flex;
-    flex:0;
+    flex:1;
     height: 100%;
 }
 .taskbar_chooses_choose{
@@ -39,29 +36,105 @@ body{
 }
 .taskbar_actions{
     display: flex;
-    align-items: left
+    align-items: left;
+    justify-content: flex-end;
     flex: 1;
     height: 100%;
 }
-.taskbar_actions_action a{
-    color: white;
-    text-decoration: none;
-    padding-right: 30px;
-}
-.taskbar .taskbar_actions .taskbar_actions_actions{
+.taskbar_actions_actions{
     margin: auto 25px;
-    padding-left: 25px; 
+    padding-left: 15px; 
 
 }
-.taskbar_chooses .taskbar_chooses_choose a{
-    font-size: 1.1rem;
+.taskbar_chooses .taskbar_chooses_choose a,.taskbar_actions a{
+    font-size: 1.2rem;
     color: #d3d3d4;
     text-decoration: none;
     text-decoration-line: none;
     text-decoration-style: initial;
     text-decoration-color: initial;
 }
-a:hover{
-    color: #d3d3d4;
+.taskbar_actions_actions a{
+    color: white;
+    padding-right: 15px;
 }
-
+.login{
+    width: 27.5rem;
+    margin-left: 31rem;
+    margin-bottom: 100px;
+}
+h1 {
+    margin: 0px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    padding-top: 135px;
+}
+p.copy--form{
+    color: white;
+    font-size: 0.75rem;
+    padding-top: 16px;
+}
+.signin_group .signin_group_input, .signin_group--error .signin_group_input {
+    width: 100%;
+    height: 2.0625rem;
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+    background: #3a3a44;
+    color: white;
+    border: 0.0625rem solid #3a3a44;
+    border-radius: 0;
+    outline: 0;
+}
+.signin_group .signin_group_password .signin_group_password_input, .signin_group--error .signin_group_password .signin_group_password_input {
+    width: 100%;
+    height: 2.0625rem;
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+    background: #3a3a44;
+    color: white;
+    border: 0.0625rem solid #3a3a44;
+    border-radius: 0;
+    outline: 0;
+}
+.form_button--disabled {
+    opacity: 0.33;
+    cursor: not-allowed;
+}
+.form_button, .form_button--disabled {
+    min-width: 7.625rem;
+    height: 2.0625rem;
+    margin: 30px 0 16px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    padding: 0px 1.75rem;
+    background: #1260f3;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.0625rem;
+    letter-spacing: 0.058125rem;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+hr {
+    color: #d3d3d4;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
