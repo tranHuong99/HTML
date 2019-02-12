@@ -145,3 +145,19 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+.chooses_general .chooses_name{
+    margin: 4rem;
+    padding: 0 1.25rem 0 1.5rem;
+    width: 252px;
+    height: 12px;
+}
+h4 {
+    margin: 0 0 0 -0.171875rem;
+    font-size: 0.6875rem;
+    font-weight: bold;
+    line-height: 1.091;
+    letter-spacing: 0.171875rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    color: #d3d3d4;
+}
