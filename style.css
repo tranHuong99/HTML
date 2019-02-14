@@ -162,11 +162,12 @@ h4 {
     color: #d3d3d4;
 }
 .chooses_general .tab_Active{
-    width: 320px;
-    height: 80px;
+    width: 300px;
+    height: 73px;
     background: #1f1f24;
     border-left: 0.25rem solid #1260f3;
     cursor: default;
+    margin-top: -55px;
     margin-left: 65px;
     margin-right: 1100px;
 }
@@ -178,8 +179,58 @@ h4 {
     color: white;
     padding-left: 20px;
 }
-.tab_Details p{
+.tab_Details{
     color: #d3d3d4;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    margin-top: -44px;
+}
+p.tab_Details_Users {
+    flex: 1;
+}
+.chooses_general .tab_New_Users{
+    width: 300px;
+    height: 73px;
+    border-left: 0.25rem solid #1260f3;
+    margin-top: -15px;
+    margin-left: 65px;
+    margin-right: 1100px;
+}
+p.header_Details{
+    color: #d3d3d4;
+    margin-top: -20px;
+    margin-left: 220px;
+    font-size: 15px;
+}
+.table_Scoreboard .table_Header{
+    width: 955px;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    margin-left: 442px;
+    margin-top: 30px;
+    padding: 0 1.75rem;
+    background: #3a3a44;
+    color: white;
+}
+.Content .full_Header{
+    margin-top: -285px;
+    margin-left: 440px;
+}
+.table_Header_Text{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 1rem;
+    display: flex;
+    flex:1;
+    height: 100%;
+}
+h3.table_Header_Text{
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.068125rem;
+    text-transform: uppercase;
+    color: white;
 }
