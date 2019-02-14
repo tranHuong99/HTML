@@ -256,12 +256,28 @@ p.focus, p.focus_action{
     font-weight: normal;
     color: #d3d3d4;
 }
+.table_row_rank{
+    width: 0px;
+    margin-left: 10px;
+}
+.table_row_user{
+    font-weight: bold;
+    width: 480px;
+}
+.table_row_country{
+    width: 235px;
+}
+.table_row_point{
+    width: 100px;
+}
 .user .user_user {
     display: inline-block;
     color: white;
+    margin-left: 265px;
 }
 .user .user_profile .user_profile_picture{
     width: 1.125rem;
     height: 1.125rem;
-    margin-bottom: -0.25rem;
+    margin-bottom: -2.25rem;
+    margin-left: 240px;
 }
