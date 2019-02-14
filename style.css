@@ -237,12 +237,14 @@ h3.table_Header_Text{
 .table_Scoreboard .table_rows{
     display: flex;
     align-items: center;
-    height: 0.75rem;
+    height: 2.75rem;
     padding: 0 1.75rem 0.125rem 1.75rem;
     border: 0;
     border-bottom: 0.125rem solid rgba(255, 255, 255, 0.07);
     margin-left: 442px;
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-right: 52px;
+    background-color: #1f1f24;
 }
 .table_row p.focus {
     margin-top: 0;
@@ -257,4 +259,9 @@ p.focus, p.focus_action{
 .user .user_user {
     display: inline-block;
     color: white;
+}
+.user .user_profile .user_profile_picture{
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-bottom: -0.25rem;
 }
