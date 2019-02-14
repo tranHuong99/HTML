@@ -153,11 +153,33 @@ hr {
 }
 h4 {
     margin: 0 0 0 -0.171875rem;
-    font-size: 0.6875rem;
+    font-size: 0.8rem;
     font-weight: bold;
     line-height: 1.091;
     letter-spacing: 0.171875rem;
     text-transform: uppercase;
     opacity: 0.5;
     color: #d3d3d4;
+}
+.chooses_general .tab_Active{
+    width: 320px;
+    height: 80px;
+    background: #1f1f24;
+    border-left: 0.25rem solid #1260f3;
+    cursor: default;
+    margin-left: 65px;
+    margin-right: 1100px;
+}
+.chooses_general h3{
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 3.5;
+    color: white;
+    padding-left: 20px;
+}
+.tab_Details p{
+    color: #d3d3d4;
+    font-size: 0.75rem;
+    padding-left: 20px;
 }
