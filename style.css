@@ -220,7 +220,7 @@ p.header_Details{
     margin-left: 440px;
 }
 .table_Header_Text{
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 10px;
     font-size: 1rem;
     display: flex;
@@ -232,5 +232,29 @@ h3.table_Header_Text{
     line-height: 1;
     letter-spacing: 0.068125rem;
     text-transform: uppercase;
+    color: white;
+}
+.table_Scoreboard .table_rows{
+    display: flex;
+    align-items: center;
+    height: 0.75rem;
+    padding: 0 1.75rem 0.125rem 1.75rem;
+    border: 0;
+    border-bottom: 0.125rem solid rgba(255, 255, 255, 0.07);
+    margin-left: 442px;
+    margin-top: 30px;
+}
+.table_row p.focus {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+p.focus, p.focus_action{
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #d3d3d4;
+}
+.user .user_user {
+    display: inline-block;
     color: white;
 }
