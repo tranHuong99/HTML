@@ -1,0 +1,55 @@
+.Problems .header{
+    display: flex;
+    width: 200px;
+}
+.Problems .header h1{
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.Problems .header .header_actions .header_action_button{
+    min-width: 12.25rem;
+    height: 2.5rem;
+    padding: 0 1.75rem;
+    background: #1260f3;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.0625rem;
+    letter-spacing: 0.058125rem;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+.table_cols{
+    display: flex;
+}
+.Group{
+    width: 300px;
+    height: 50px;
+    background: #1f1f24;
+    border-left: 0.25rem solid #1260f3;
+    cursor: default;
+    
+}
+.Group h3{
+    text-transform: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+    line-height: 3.5;
+    color: white;
+    padding-left: 20px;
+    letter-spacing: 0.058125rem;
+}
+.Problem_Status{
+    width: 500px;
+}
+.Problem_Status .trending_Problems h2{
+    color: white;
+    margin-left: 450px;
+    margin-top: -480px;
+}

@@ -281,21 +281,21 @@ p.focus, p.focus_action{
     margin-bottom: -2.25rem;
     margin-left: 240px;
 }
-.Problems .header{
+.header{
     display: flex;
-    width: 200px;
+    justify-content: space-between;
 }
-.Problems .header h1{
-    margin-left: 100px;
-    margin-top: -60px;
+.header_title{
+    padding-top: 0px;
+    margin-left: 90px;
 }
 .Problems .header .header_actions .header_action_button{
-    min-width: 12.25rem;
+    min-width: 9.25rem;
     height: 2.5rem;
     padding: 0 1.75rem;
     background: #1260f3;
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
     line-height: 2.0625rem;
@@ -305,31 +305,128 @@ p.focus, p.focus_action{
     text-transform: uppercase;
     outline: none;
     cursor: pointer;
-    margin-left: 900px;
+    margin: 0 0 0 auto;
+}
+.Problems{
     margin-top: 50px;
 }
-.table_cols{
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.trending_Problems{
+    display: flex;
+    flex-direction: row;
+}
+.flex-60{
+    flex:60%;
+}
+.flex-25{
+    flex: 25%;
+}
+.col_1{
+    width: 400px;
+}
+.Problems_problem{
+    width: 700px;
+}
+.col_3{
+    width: 300px;
+}
+.Problems_problem .problem_title{
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: white;
+}
+.problem_preview{
+    width: 100%;
+    padding: 1.5rem 0rem;
+    background: #1f1f24;
+    border: 0;
+    border-bottom: 0.125rem solid rgba(255, 255, 255, 0.07); 
+}
+.like{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40px;
+}
+.like .copy_action{
+    display: flex;
+    font-size: 1.1rem;
+    line-height: 1;
+    margin: 0;
+}
+p.copy_action {
+    color: white;
+    font-weight: bold;
+}
+.problem_previews_title {
+    margin: 0.5rem 0;
+}
+h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.068125rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 40px;
+}
+.problem_preview_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+}
+.problem_preview_details .problem_preview_detail_points, .problem_preview_details .problem_preview_detail_solves, .problem_preview_details .problem_preview_detail_category
+.problem_preview_details .problem_preview_detail_difficulty_easy, .problem_preview_details .problem_preview_detail_author{
+    flex: 0 auto;
+    margin: 0 1rem 0 0;
+    line-height: 1;
+}
+p.copy{
+    font-size: 0.9rem;
+}
+p.problem_preview_detail_points, p.problem_preview_detail_solves, p.problem_preview_detail_category{
+    color: #d3d3d4;
+}
+p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.problem_preview_details .problem_preview_detail_difficulty_easy {
+    color: #2bf59e;
+}
+.problem_preview_details .problem_preview_detail_difficulty_hard{
+    color: #de7a1c;
+}
+.none{
+    flex: 100%;
+    height: 50px;
+}
+.discover_Problems{
     display: flex;
 }
-.Group{
-    width: 300px;
-    height: 50px;
+.tab_switcher{
+    width: 400px;
+}
+.tab_switcher .tab_active {
     background: #1f1f24;
     border-left: 0.25rem solid #1260f3;
     cursor: default;
-    margin-top: 440px;
-    margin-left: 65px;
-    margin-right: 1100px;
+    width: 300px;
 }
-.Group h3{
+h3.tab_title{
+    margin-left: 90px;
     text-transform: none;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    line-height: 3.5;
+    line-height: 2.5;
     color: white;
-    padding-left: 20px;
     letter-spacing: 0.058125rem;
-}
-.Problem_Status{
-    width: 500px;
+    font-variant: small-caps;
 }
