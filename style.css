@@ -13,13 +13,14 @@ body{
     list-style: none;
     padding: 0 2rem;
     align-items: center;
+    flex-direction: row;
 
 }
 
 .taskbar_logo{
     flex: 0 auto;
     margin: 0 2.625rem 0 0;
-
+    width: 145px;
 }
 .taskbar_logo h3{
     text-transform: none;
@@ -27,7 +28,7 @@ body{
     font-weight: bold;
     line-height: 1;
     color: white;
-    padding-left: 20px;
+    margin: 0;
 }
 .taskbar_chooses{
     display: flex;
@@ -40,7 +41,7 @@ body{
 .taskbar_actions{
     display: flex;
     align-items: left;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 1;
     height: 100%;
 }
@@ -59,7 +60,7 @@ body{
 }
 .taskbar_actions_actions a{
     color: white;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 .login{
     width: 27.5rem;
@@ -319,8 +320,8 @@ p.focus, p.focus_action{
     display: flex;
     flex-direction: row;
 }
-.flex-60{
-    flex:60%;
+.flex-50{
+    flex:50%;
 }
 .flex-25{
     flex: 25%;
@@ -357,14 +358,13 @@ p.focus, p.focus_action{
     font-size: 1.1rem;
     line-height: 1;
     margin: 0;
+    height: 25px;
 }
 p.copy_action {
     color: white;
     font-weight: bold;
 }
-.problem_previews_title {
-    margin: 0.5rem 0;
-}
+
 h3 {
     margin: 0;
     font-size: 1rem;
@@ -391,6 +391,7 @@ p.copy{
     font-size: 0.9rem;
 }
 p.problem_preview_detail_points, p.problem_preview_detail_solves, p.problem_preview_detail_category{
+    margin: 0 1rem 0 0;
     color: #d3d3d4;
 }
 p a {
@@ -399,9 +400,11 @@ p a {
     font-weight: bold;
 }
 .problem_preview_details .problem_preview_detail_difficulty_easy {
+    margin: 0 1rem 0 0;
     color: #2bf59e;
 }
 .problem_preview_details .problem_preview_detail_difficulty_hard{
+    margin: 0 1rem 0 0;
     color: #de7a1c;
 }
 .none{
