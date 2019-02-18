@@ -410,6 +410,7 @@ p a {
 }
 .discover_Problems{
     display: flex;
+    flex-direction: row;
 }
 .tab_switcher{
     width: 400px;
@@ -429,4 +430,34 @@ h3.tab_title{
     color: white;
     letter-spacing: 0.058125rem;
     font-variant: small-caps;
+}
+.container .discover_Problems .filter{
+    margin: 3.25rem 0 0 0;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+.filter_switcher {
+    margin: 2rem 0 0 0;
+}
+.filter_switcher .filter_active{
+    margin: 15px 0 0 12px;
+}
+.filter_switcher .filter_active .filter_text::before {
+    outline: 0.125rem solid #1260f3;
+    border: 0.1875rem solid #131316;
+    background: #1260f3;
+}
+.filter_switcher .filter_text::before {
+    position: relative;
+    top: 0.03125rem;
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 0 0.5rem 0 0;
+    content: '';
+}
+.discover_Problems .col_none{
+    width: 50px;
 }
