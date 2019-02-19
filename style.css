@@ -464,3 +464,14 @@ h3.tab_title{
 .discover_Problems .col_none{
     width: 50px;
 }
+.like .like_icon{
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    margin: 0 0.1875rem 0 0;
+    background: url(/static/assets/icons/heart.png);
+    background-repeat: no-repeat;
+    background-position: right center 0.375rem;
+    background-size: contain;
+    color: white;
+}
